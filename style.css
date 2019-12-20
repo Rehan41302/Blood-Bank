@@ -1,0 +1,116 @@
+
+@import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+* {box-sizing: border-box;}
+.first{
+  text-align: center;
+  color:lightcoral;
+  font-size: 45px;
+  font-weight: bold;
+}
+.second{
+  text-align: center;
+  color: black;
+
+}
+.p1{
+  font-size: 20px;
+  
+}
+.gif1{
+  margin-left: 14%;
+  margin-bottom: 60px;
+}
+
+            .w3-content {
+            margin-left: 6%; 
+        }
+        .w3-center{
+            margin-left: 30%;
+            color: lightcoral;
+            font-weight: bold;
+        }
+      
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color:lightcoral;
+  padding: 35px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+#navbar a {
+  float: left;
+  color:white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  
+}
+
+#navbar #logo {
+ 
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+#navbar a:hover {
+  background-color:lightgoldenrodyellow;
+  color: black;
+  font-size: 35;
+}
+
+#navbar a.active {
+  background-color: lightgoldenrodyellow;
+  color:black;
+}
+
+#navbar-right {
+  float: right;
+}
+.footer{
+    left: 0;
+    bottom: 0;
+    background-color: lightcoral;
+    padding: 20px;
+    width: 100%;
+    color: white;
+}
+.last{
+  text-align: center;
+  color:lightcoral;
+  font-size: 45px;
+  font-weight: bold;
+
+}
+/* .mySlides{
+  align-items: center;
+min-width: 350px;
+} */
+
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important;
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
+  }
+
+  
+}

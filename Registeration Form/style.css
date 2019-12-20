@@ -1,0 +1,98 @@
+
+* {box-sizing: border-box;}
+
+#navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background-color:lightcoral;
+    padding: 30px 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    border:3px solid red;
+    border-radius: 5px;
+  }
+  #navbar a {
+    float: left;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 10px;
+    border-radius: 4px;
+  }
+  #navbar #logo {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  #navbar a:hover {
+    background-color:lightgoldenrodyellow;
+    color: black;
+  }
+  
+  #navbar a.active {
+    background-color: lightgoldenrodyellow;
+    color:black;
+  }
+  
+  #navbar-right {
+    float: right;
+  }
+
+
+input[type=text], [type=password], [type=email]{
+    width: 280px;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius:5px;
+    border:1px solid red;
+    
+}
+input[type=button]{
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    border-radius: 1px solid red;
+}
+table{
+    background-color:lightcoral;
+    padding:20px;
+    width: 700px;
+    margin: 5px auto;
+    margin-top: 200px;
+    color: white;
+    opacity: .9;
+    border: 2px solid red;
+    border-radius: 15px;
+    
+}
+th{
+    font-family: sans-serif;
+    font-size: 30px;
+
+}
+td{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+body{
+    background-color: lightgoldenrodyellow;
+}
+@media screen and (max-width: 580px) {
+    #navbar {
+        padding: 1px 1px !important;
+      }
+    #navbar a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    #navbar-right {
+      float: none;
+    }
+  
+    
+  }

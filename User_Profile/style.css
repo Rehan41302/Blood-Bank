@@ -1,0 +1,91 @@
+body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #navbar {
+    overflow: hidden;
+    background-color:lightcoral;
+    padding: 30px 10px;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    border:3px solid red;
+    border-radius: 5px;
+  }
+  
+  #navbar a {
+    float: left;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+ 
+    
+  }
+  
+  #navbar #logo {
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.4s;
+  }
+  
+  #navbar a:hover {
+    background-color:lightgoldenrodyellow;
+    color: black;
+  }
+  
+  #navbar a.active {
+    background-color: lightgoldenrodyellow;
+    color:black;
+  }
+  
+  #navbar-right {
+    float: right;
+    margin-right: 30px;
+  }
+  .userP{
+    margin-top:210px;
+    padding:15px 15px 200px;
+    font-size:25px;
+    margin-left:100px
+  }
+  table{
+      width: 40%;
+      margin-left: 25%;
+      border: 2px groove black;
+      padding: 25px;
+      background-color: wheat;
+      border-radius: 15 50px;
+
+
+
+  }
+  td{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  th{
+       text-align: left;
+  }
+ 
+
+  @media screen and (max-width: 580px) {
+    #navbar {
+      padding: 20px 10px !important;
+    }
+    #navbar a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    #navbar-right {
+      float: none;
+    }
+  
+    
+  }
